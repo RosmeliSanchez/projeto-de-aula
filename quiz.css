@@ -1,0 +1,116 @@
+
+* {
+    margin: 100;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background-size:cover;
+    background-position: center;
+   
+  }
+  
+  body h2 {
+  
+    color: rgb(46, 27, 3);
+    font-size: 50px;
+  
+  }
+  
+  main {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+  
+  .spnQtd {
+    text-align: end;
+  }
+  
+  .answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    
+  }
+  .question{
+    font-size: 25px;
+  }
+  button {
+    font-size: 20px;
+    text-align: start;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #071b5c;
+    color: rgb(52, 120, 221);
+    width: 100%;
+  }
+  
+  .correct{
+      background-color: rgb(15, 81, 10);
+      color:white;
+  }
+  .incorrect{
+      background-color: rgb(250, 8, 24);
+      color:white;
+  }
+  
+  #voltar{
+    width: 20%;
+    margin:10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(52, 120, 221);
+  }
+  a {
+      text-decoration: none;
+      color:rgb(213, 212, 229);
+     }
+
+     #voltar:hover {
+      background-color:rgb(38, 79, 141) ;
+
+
+     }
+  
+  
+  .finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .sobre {
+    font-size: 50px;
+    color: #3623bf;
+    border: 3px solid #686963;
+  }
+
+  
